@@ -11,6 +11,17 @@ abstract class Shape {
     // 3. You can have normal methods also
 }
 
+interface ShapeInterface {
+    abstract void drawShape();
+    abstract double perimeter();
+    abstract double area();
+    // 1. interfaces provide 100% abstraction but abstract classes not
+    // 2. we can do inheritance with keyword implements
+    // 3. You can not use normal methods here like abstract classes
+}
+
+
+
 class Rectangle extends Shape {
     double length;
     double breadth;
@@ -46,6 +57,6 @@ class Square extends Shape {
 
 public class AbstractionTutorial {
     public static void main(String[] args) {
-    
+
     }
 }
