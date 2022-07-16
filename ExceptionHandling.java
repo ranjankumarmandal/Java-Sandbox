@@ -20,3 +20,4 @@ public class ExceptionHandling {
             System.out.println("Input is not proper");
         }
     }
+}
