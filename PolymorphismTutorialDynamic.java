@@ -1,4 +1,4 @@
-class NithinCalc {
+class NithinCalc1 {
     public void calcOwner() {
         System.out.println("Nithin is owner of this calculator");
     }
@@ -16,7 +16,7 @@ class NithinCalc {
     }
 }
 
-class GaneshCalc extends NithinCalc {
+class GaneshCalc extends NithinCalc1 {
     // Method overriding/ Run time polymorphism
     public void calcOwner() {
         System.out.println("Ganesh is the owner of this calc");
