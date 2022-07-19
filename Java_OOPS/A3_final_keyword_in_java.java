@@ -9,7 +9,7 @@ public class A3_final_keyword_in_java {
 }
 
 class Circle3 {
-    // value of variables with final keyword can not be changed, its like unique and one time initialization
+    // value of variables with final keyword can not be changed, its like unique and one time initialization.
     // final methods can not be overriden.
     public final float radius;
     public static final float PI = 3.14f;
