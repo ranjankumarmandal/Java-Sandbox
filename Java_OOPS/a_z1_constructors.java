@@ -17,6 +17,6 @@ class Circle {
     }
 
     public float area() {
-        return 3.14f * radius * radius;
+        return 3.14f * this.radius * this.radius;
     }
 }
