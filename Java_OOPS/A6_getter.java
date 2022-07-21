@@ -14,7 +14,7 @@ class Student1 {
         this.radius = radius;
     }
 
-    // getter method - this method used to return some values from a class
+    // getter method - this method used to read the value of a private attribute of a class
     public float getRadius() {
         return this.radius;
     }
