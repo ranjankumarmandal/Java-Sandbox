@@ -14,4 +14,8 @@ public class WithArrayList {
 }
 
 class Student {
+  private final String name;
+  private final int rollNumber;
+
+  
 }
