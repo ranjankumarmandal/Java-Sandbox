@@ -12,3 +12,6 @@ public class WithArrayList {
     printStudentList(studentList);
   }
 }
+
+class Student {
+}
