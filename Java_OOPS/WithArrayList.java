@@ -21,4 +21,10 @@ class Student {
     this.name = name;
     this.rollNumber = rollNumber;
   }
+
+  public String getDetails() {
+    return
+      "name = " + this.name + '\n' +
+      "roll number = " + this.rollNumber + '\n';
+  }
 }
