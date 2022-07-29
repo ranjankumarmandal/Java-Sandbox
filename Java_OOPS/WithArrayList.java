@@ -17,5 +17,8 @@ class Student {
   private final String name;
   private final int rollNumber;
 
-  
+  public Student(String name, int rollNumber) {
+    this.name = name;
+    this.rollNumber = rollNumber;
+  }
 }
